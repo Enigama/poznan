@@ -192,9 +192,9 @@ header .header_line .menu .list_menu .navbar-default .my_container .navbar-nav l
   font-family: "ArialIt";
   font-size: 9px;
   text-transform: none;
-  display: -webkit-inline-box;
+/*  display: -webkit-inline-box;
   display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
+  display: -ms-inline-flexbox;*/
   display: inline-flex;
   padding-left: 0px;
 }
@@ -397,16 +397,17 @@ main .line_mein .column_right .block_why .media .media_right .line_ .block_btn .
 }
 main .line_mein .column_right .block_why .media .media_right .line_ .line_like_comments {
   height: 31px;
-  width: 200px;
+  width: 180px;
   background: #90d4f5;
   background: url("../img/bg_line_after.png") no-repeat;
+  text-align: center;
   display: inline-block;
   float: right;
 }
 main .line_mein .column_right .block_why .media .media_right .line_ .line_like_comments .like {
   display: inline-block;
   vertical-align: sub;
-  margin-left: 10px;
+  margin-left: 5px;
   /* background:url("../img/like.png");
 									width:16px;
 									height:15px; */
@@ -562,6 +563,9 @@ main .line_mein .block_footer {
   padding-top: 35px;
   margin-left: 20px;
 }
+main .line_mein .block_footer span {
+  padding-right: 50px;
+}
 footer {
   min-height: 630px;
 }
@@ -578,16 +582,21 @@ footer .fluid_line {
   padding-left: 0;
   padding-right: 0;
 }
+footer .fluid_line iframe {
+  width: 100%;
+  min-height: 400px;
+}
 footer .logo_footer {
   margin-top: 15px;
 }
 footer .logo_footer .logo_footer_item {
   padding-left: 30px;
-  padding-right: 2px;
+  padding-right: 0px;
+  min-height: 50px;
+  border-bottom: 1px dotted silver;
 }
 footer .logo_footer .logo_footer_item .block_item {
   height: 43px;
-  border-bottom: 1px dotted silver;
 }
 footer .logo_footer .logo_footer_item span {
   font-family: "LegGoReg";
@@ -601,14 +610,38 @@ footer .logo_footer .logo_footer_item span span1 {
 footer .logo_footer .menu_my {
   width: 71%;
   padding-right: 0px;
-  border-bottom: 1px dotted silver;
+  padding-left: 0;
   text-align: right;
 }
-footer .logo_footer .menu_my ul {
+footer .logo_footer .menu_my .navbar-default {
+  border: none;
+  background: #fff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-right: 0;
+  border-bottom: 1px dotted silver;
+}
+footer .logo_footer .menu_my .navbar-default .my_container1 {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+footer .logo_footer .menu_my .navbar-default .my_container1 .navbar-nav > li > a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+footer .logo_footer .menu_my .navbar-default .my_container1 .navbar-nav {
+  float: right;
+}
+footer .logo_footer .menu_my .navbar-default .my_container1 .navbar-collapse {
+  padding-right: 0;
+}
+footer .logo_footer .menu_my .navbar-default .my_container1 .navbar-collapse .navbar-nav ul {
+  float: right;
   list-style-type: none;
   display: inline-block;
 }
-footer .logo_footer .menu_my li {
+footer .logo_footer .menu_my .navbar-default .my_container1 .navbar-collapse .navbar-nav li {
   text-transform: uppercase;
   display: inline-block;
   padding: 5px 17px;
@@ -617,13 +650,13 @@ footer .logo_footer .menu_my li {
   color: #000;
   font-family: "ArialReg";
 }
-footer .logo_footer .menu_my li:hover {
+footer .logo_footer .menu_my .navbar-default .my_container1 .navbar-collapse .navbar-nav li:hover {
   background: #0875a5;
   border: 1px solid;
   -webkit-border-radius: 2px;
           border-radius: 2px;
 }
-footer .logo_footer .menu_my li:hover a {
+footer .logo_footer .menu_my .navbar-default .my_container1 .navbar-collapse .navbar-nav li:hover a {
   color: #fff;
 }
 footer .last_line {

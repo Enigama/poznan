@@ -444,17 +444,17 @@ main{
 								
 							.line_like_comments{
 								height:31px;
-								width:200px;
+								width:180px;
 								//padding-left: 10px;
 								background:#90d4f5;
 								background:url("../img/bg_line_after.png")no-repeat;
-
+								text-align: center;
 								display: inline-block;
 								float: right;
 								.like{
 									display: inline-block;
 									vertical-align: sub;
-									margin-left: 10px;
+									margin-left: 5px;
 									/* background:url("../img/like.png");
 									width:16px;
 									height:15px; */
@@ -629,6 +629,9 @@ main{
 			text-align: center;
 			    padding-top: 35px;
 			    margin-left: 20px;
+			span{
+				padding-right: 50px;
+			}
 		}
 	}
 }
@@ -648,15 +651,20 @@ footer{
 	.fluid_line{
 		padding-left: 0;
 		padding-right:0;
+		iframe{
+			width: 100%;
+			min-height: 400px;
+		}
 	}
 	.logo_footer{
 		margin-top: 15px;
 		.logo_footer_item{
 			padding-left:30px;
-			padding-right: 2px;
+			padding-right: 0px;
+			min-height: 50px;
+			border-bottom: 1px dotted silver;
 			.block_item{
 				height:43px;
-				border-bottom: 1px dotted silver;
 			}
 			span{
 				.Reg;
@@ -671,26 +679,52 @@ footer{
 		.menu_my{
 			width:71%;
 			padding-right: 0px;
-			border-bottom: 1px dotted silver;
+			padding-left: 0;
 			text-align: right;
-			ul{
-				list-style-type: none;
-				display: inline-block;
-			}
-			li{
-				text-transform: uppercase;
-				display: inline-block;
-				padding: 5px 17px;
-				margin-left: 19px;
-				border:1px solid #fff;
-				color:#000;
-				.ArReg;
-				&:hover{
-					background: #0875a5;
-					border: 1px solid;
-	    				border-radius: 2px;
-					a{
-						color:#fff;
+
+			.navbar-default{
+				border: none;
+				background: #fff;
+				box-shadow: none;
+				padding-right: 0;
+				border-bottom: 1px dotted silver;
+				.my_container1{
+					width: 100%;
+					padding-left: 0;
+					padding-right: 0;
+					.navbar-nav > li > a {
+						padding-top: 5px;
+						padding-bottom: 5px;
+					}
+					.navbar-nav{
+						float: right;
+					}
+					.navbar-collapse{
+						padding-right: 0;
+						.navbar-nav{
+							ul{
+								float: right;
+								list-style-type: none;
+								display: inline-block;
+							}
+							li{
+								text-transform: uppercase;
+								display: inline-block;
+								padding: 5px 17px;
+								margin-left: 19px;
+								border:1px solid #fff;
+								color:#000;
+								.ArReg;
+								&:hover{
+									background: #0875a5;
+									border: 1px solid;
+									border-radius: 2px;
+									a{
+										color:#fff;
+									}
+								}
+							}
+						}
 					}
 				}
 			}
