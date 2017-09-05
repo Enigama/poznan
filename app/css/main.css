@@ -52,7 +52,7 @@ a:visited,
 a:active {
   color: #000;
   -webkit-border-radius: 0;
-  border-radius: 0;
+          border-radius: 0;
   text-decoration: none;
   border: 0px;
   padding: 0px;
@@ -68,7 +68,6 @@ header {
 header .header_line {
   margin-top: 20px;
 }
-
 header .header_line .first_column {
   padding-left: 0;
 }
@@ -93,30 +92,25 @@ header .header_line .first_column .column_second_header {
 header .header_line .menu {
   margin-top: 20px;
 }
-
 header .header_line .menu .list_menu .navbar-default {
   border: none;
   background: #fff;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
-
 header .header_line .menu .list_menu .navbar-default .container,
 header .header_line .menu .list_menu .navbar-default .my_container {
   width: 100%;
 }
-
 header .header_line .menu .list_menu .navbar-default .container .navbar-nav > li > a,
 header .header_line .menu .list_menu .navbar-default .my_container .navbar-nav > li > a {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
 header .header_line .menu .list_menu .navbar-default .container .navbar-nav ul,
 header .header_line .menu .list_menu .navbar-default .my_container .navbar-nav ul {
   list-style-type: none;
 }
-
 header .header_line .menu .list_menu .navbar-default .container .navbar-nav li,
 header .header_line .menu .list_menu .navbar-default .my_container .navbar-nav li {
   text-transform: uppercase;
@@ -125,7 +119,6 @@ header .header_line .menu .list_menu .navbar-default .my_container .navbar-nav l
   color: #000;
   font-size: 14px;
 }
-
 header .header_line .menu .list_menu .navbar-default .container .navbar-nav li:hover,
 header .header_line .menu .list_menu .navbar-default .my_container .navbar-nav li:hover {
   background: #0875a5;
@@ -133,7 +126,6 @@ header .header_line .menu .list_menu .navbar-default .my_container .navbar-nav l
   -webkit-border-radius: 2px;
           border-radius: 2px;
 }
-
 header .header_line .menu .list_menu .navbar-default .container .navbar-nav li:hover a,
 header .header_line .menu .list_menu .navbar-default .my_container .navbar-nav li:hover a {
   color: #fff;
@@ -179,7 +171,6 @@ header .header_line .menu .list_menu .navbar-default .my_container .navbar-nav l
 .preview .line_visit .col_greater_poland span1 {
   color: #22aaec;
 }
-
 .preview .line_visit .reviews {
   height: auto;
   position: relative;
@@ -201,9 +192,9 @@ header .header_line .menu .list_menu .navbar-default .my_container .navbar-nav l
   font-family: "ArialIt";
   font-size: 9px;
   text-transform: none;
-  /*display: -webkit-inline-box;
+  display: -webkit-inline-box;
   display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;*/
+  display: -ms-inline-flexbox;
   display: inline-flex;
   padding-left: 0px;
 }
