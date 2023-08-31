@@ -1,2 +1,2 @@
 # poznan
-#After git clone or download zip nead npm i
+#After git clone or download zip need npm i
